@@ -205,14 +205,14 @@ if __name__ == '__main__':
     diag_sudoku_grid = "1......2.....9.5...............8...4.........9..7123...........3....4.....936.4.."
     display(solve(diag_sudoku_grid))
 
-#     try:
-#         from visualize import visualize_assignments
-#         visualize_assignments(assignments)
+    try:
+        from visualize import visualize_assignments
+        visualize_assignments(assignments)
 
-#     except SystemExit:
-#         pass
-#     except:
-#         print('We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.')
+    except SystemExit:
+        pass
+    except:
+        print('We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.')
 
 
 
